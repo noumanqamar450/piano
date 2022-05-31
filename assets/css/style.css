@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('../images/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.piano {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-btn {
+    cursor: pointer;
+}
+
+.sub-btn {
+    cursor: pointer;
+}
+
+.active {
+    opacity: 0.6;
+}
+
+ellipse.lighton {
+    fill: #FFFF00;
+    box-shadow: 0px 0px 2px #FFFF00;
+}
+
+.creator {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
